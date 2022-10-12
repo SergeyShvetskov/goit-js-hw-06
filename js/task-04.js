@@ -20,9 +20,5 @@ const counterValue = document.querySelector("#value");
 const btnDec = document.querySelector('[data-action="decrement"]');
 const btnInc = document.querySelector('[data-action="increment"]');
 
-
-btnDec.addEventListener("click", 
-event => counterValue.textContent--);
-
-btnInc.addEventListener("click", 
-event => counterValue.textContent++);
+btnDec.addEventListener("click", event => counterValue.textContent--);
+btnInc.addEventListener("click", event => counterValue.textContent++);

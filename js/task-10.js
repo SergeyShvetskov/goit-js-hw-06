@@ -39,6 +39,8 @@ function getRandomHexColor() {
 
 const createButton = document.querySelector("[data-create]");
 const destroyButton = document.querySelector("[data-destroy]");
-const 
+const countInput = document.querySelector("input");
 
-console.log(destroyButton);
+
+
+console.log(countInput);

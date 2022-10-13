@@ -11,8 +11,8 @@
 const inputRange = document.querySelector("#font-size-control");
 const spanText = document.querySelector("#text");
 
-inputRange.addEventListener("change", onChange);
+inputRange.addEventListener("input", onInput);
  
-function onChange () {
+function onInput () {
     spanText.style.fontSize = inputRange.value + "px";
 }

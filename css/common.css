@@ -28,6 +28,12 @@ button {
   display: flex;
   list-style: none;
 }
+.js-taskThree li {
+  flex-wrap: wrap;
+  border-radius: 20px;
+  /* background-color: red; */
+  overflow: hidden;
+}
 
 img {
   display: block;
